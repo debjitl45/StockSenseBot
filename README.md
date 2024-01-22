@@ -16,6 +16,36 @@ Track your gains and losses over time. The chatbot provides a detailed breakdown
 <h3>4. Net Worth Tracking</h3>
 Keep an eye on your overall financial health by tracking your net worth. The chatbot aggregates your stock portfolio, providing a comprehensive view of your assets.
 
+<h3>Getting Started</h3>
+
+<h4>Prerequisites</h4>
+Make sure you have Python installed. 
+You can install the required packages using:
+
+```bash
+pip install mplfinance yahoofinance neuralintents
+```
+Usage
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/StockBot.git
+cd StockBot
+```
+
+Run the chatbot:
+```bash
+python stockbot.py
+```
+
+Start interacting with StockBot using natural language commands.
+Example Commands
+<ul>"Buy 10 shares of AAPL."</ul>
+<ul>"Sell 5 shares of MSFT."</ul>
+<ul>"Show me the stock chart for TSLA."</ul>
+<ul>"What is my net worth?"</ul>
+<ul>"Track my gains."</ul>
+
 <h4>Contributing</h4>
 Contributions are welcome! If you have ideas for new features, find a bug, or want to improve the documentation, feel free to open an issue or submit a pull request.
 
