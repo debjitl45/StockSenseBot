@@ -1,0 +1,44 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+            "responses":["Hello!", "Good to see you again!", "Hi there, how can I help?","Welcome Back!", "Hii!","Hey!","Hey there!"]
+        },
+        {
+            "tag":"plot_chart",
+            "patterns":["I want you to plot a stock", "Please plot a stock", "Plot a stock", "Show me a stock pattern", "Stock Chart"],
+            "responses":["Plotting chart"]
+        },
+        {
+            "tag":"add_portfolio",
+            "patterns":["Add a stock to my portfolio", "Add a stock", "Add a stock to my list", "Buy a stock", "Buy stock"],
+            "responses":["Adding stock"]
+        },
+        {
+            "tag":"remove_portfolio",
+            "patterns":["Remove a stock from my portfolio","Remove a stock","Remove a stock from my list", "Sell a stock", "Sell stock"],
+            "responses":["Removing stock"]
+        },
+        {
+            "tag":"show_portfolio",
+            "patterns":["Show my investments", "Show my portfolio", "Tell me about my investments", "What's in my portfolio"],
+            "responses":["Showing portfolio"]
+        },
+        {
+            "tag":"portfolio_gains",
+            "patterns":["How is my portfolio performing", "How's my gains", "Show my P&L", "Show me my profits"],
+            "responses":["Portfolio Gains"]
+        },
+        {
+            "tag":"portfolio_worth",
+            "patterns":["How much is my portfolio worth", "What is my net worth", "Net Worth", "Portfolio Worth"],
+            "responses":["Portfolio Worth"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "ciao", "see ya"],
+            "responses":["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        }       
+    ]
+}
