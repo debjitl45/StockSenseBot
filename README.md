@@ -1,4 +1,4 @@
-<h1>StockSenseBot Chatbot</h1>
+<h1>StockSenseBot</h1>
 
 Welcome to StockSense , your all-in-one chatbot for buying, selling, visualizing stocks, and tracking your gains and net worth. 
 This chatbot is designed to simplify your stock market experience by providing a user-friendly interface right in your favorite messaging platform.
