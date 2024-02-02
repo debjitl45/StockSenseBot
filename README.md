@@ -16,6 +16,9 @@ Track your gains and losses over time. The chatbot provides a detailed breakdown
 <h3>4. Net Worth Tracking</h3>
 Keep an eye on your overall financial health by tracking your net worth. The chatbot aggregates your stock portfolio, providing a comprehensive view of your assets.
 
+<h3>5. Portfolio Optimization</h3>
+Maximize your profits using Sharpe ratio.
+
 <h3>Getting Started</h3>
 
 <h4>Prerequisites</h4>
