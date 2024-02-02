@@ -39,6 +39,11 @@
             "tag":"bye",
             "patterns":["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "ciao", "see ya"],
             "responses":["Sad to see you go :(", "Talk to you later", "Goodbye!"]
-        }       
+        },
+        {
+            "tag":"optimize",
+            "patterns":["optimize my portfolio", "maximize my profits", "how to increase my profits", "minimize my loss", "optimal ratio of shares", "best performance of my portfolio"],
+            "responses":["max profits", "golden ratio", "optimal ratio", "optimal portfolio"]
+        }            
     ]
 }

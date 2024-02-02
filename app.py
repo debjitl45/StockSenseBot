@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pandas_datareader import data as pdr
 import yfinance as yfin
-
+from portopt import *
 import mplfinance as mpf
 import pickle 
 import sys
@@ -53,6 +53,7 @@ def portfolio_worth():
     yfin.pdr_override()
     for ticker in portfolio.keys():
         data=pdr.get_data_yahoo(ticker)
+        print(f"{ticker}:",data)
         price=data['Close'].iloc[-1]
         sum+=int(price)*portfolio[ticker]
     print(f"Portfolio worth is {sum} USD")
@@ -102,6 +103,12 @@ def bye():
 def hi():
     print("Hi!")
 
+def optimize():
+    shares = []
+    for ticker in portfolio.keys():
+        shares.append(ticker)
+    portfolio_optimization(shares)
+
 mappings={
     'greetings': hi,
     'plot_chart':  plot_chart,
@@ -110,6 +117,7 @@ mappings={
     'show_portfolio': show_portfolio,
     'portfolio_worth': portfolio_worth,
     'portfolio_gains': portfolio_gains,
+    'optimize': optimize,
     'bye': bye
 }
 
