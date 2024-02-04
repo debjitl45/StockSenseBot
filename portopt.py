@@ -2,13 +2,15 @@ import pandas as pd
 from pypfopt import EfficientFrontier
 from pypfopt import risk_models
 from pypfopt import expected_returns
+import datetime as dt 
 import yfinance as yfin
 
-def portfolio_optimization(shares):
+def portfolio_optimization(shares, start_date, end_date):
     tickers_list = shares
     print(shares)
-
-    data = yfin.download(tickers_list,'2022-1-1','2024-1-1')['Close']
+    
+    # Download data
+    data = yfin.download(tickers_list, start_date, end_date)['Close']
 
     # Print first 5 rows of the data
     print(data)

@@ -105,9 +105,11 @@ def hi():
 
 def optimize():
     shares = []
+    start_date=input('Choose a start date (YYYY-M-D):')
+    end_date=date.today()
     for ticker in portfolio.keys():
         shares.append(ticker)
-    portfolio_optimization(shares)
+    portfolio_optimization(shares, start_date, end_date)
 
 mappings={
     'greetings': hi,
