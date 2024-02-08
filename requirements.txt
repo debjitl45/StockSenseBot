@@ -8,3 +8,4 @@ mplfinance==0.12.7a17
 pickleshare==0.7.5
 scipy==1.8.0
 PyPortfolioOpt==1.5.3
+transformers==4.37.0
