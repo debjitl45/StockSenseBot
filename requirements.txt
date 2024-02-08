@@ -6,4 +6,5 @@ yfinance==0.1.70
 neuralintents==0.1.0
 mplfinance==0.12.7a17
 pickleshare==0.7.5
-scipy==1.8.0 
+scipy==1.8.0
+PyPortfolioOpt==1.5.3
