@@ -3,7 +3,7 @@ pandas==1.4.2
 pandas-datareader==0.10.0
 matplotlib==3.5.1
 yfinance==0.1.70
-neuralintents==0.5.1
+neuralintents==0.1.0
 mplfinance==0.12.7a17
 pickleshare==0.7.5
 scipy==1.8.0 
