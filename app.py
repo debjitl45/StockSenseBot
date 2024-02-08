@@ -1,3 +1,4 @@
+import neuralintents
 from neuralintents.assistants import BasicAssistant
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -10,7 +11,7 @@ import sys
 import datetime as dt 
 from datetime import date
 
-portfolio={"AAPL": 20, "TSLA": 10, "GS": 5}
+portfolio={"AAPL": 20, "TSLA": 10, "GS": 5} #make a dynamic input
 
 with open('portfolio.pkl', 'rb') as f:
     portfolio=pickle.load(f)
