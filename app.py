@@ -1,3 +1,4 @@
+import neuralintents
 from neuralintents.assistants import BasicAssistant
 import matplotlib.pyplot as plt
 import pandas as pd
